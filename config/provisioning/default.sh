@@ -103,7 +103,7 @@ function provisioning_start() {
         "${WORKSPACE}/storage/stable_diffusion/models/clip_vision" \
         "${CLIPVISION_MODELS[@]}"
     provisioning_get_models \
-        "${WORKSPACE}/storage/stable_diffusion/models/ckpt" \
+        "${WORKSPACE}/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved/models" \
         "${ANIMATEDIFF_MODELS[@]}"
     provisioning_print_end
 }
